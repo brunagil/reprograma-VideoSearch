@@ -18,11 +18,9 @@ const result = document.getElementById("results")
             result.innerHTML="" 
 
             let listaDeVideos = data.items   
-            
-    
+                
         if (listaDeVideos.length > 0) {
             for (const video of listaDeVideos) { 
-                
                 const linkDoVideo = video.id.videoId
                 const nomeDoVideo = video.snippet.title
                 const descricaoDoVideo = video.snippet.description
@@ -38,7 +36,7 @@ const result = document.getElementById("results")
                     <img src="${imgDoVideo}"/>
                     </a>
                     </div>`               
-                }
+            }
         } else {
             results.innerHTML = `<p>Nenhum resultado encontrado</p>` 
         }

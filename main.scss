@@ -69,6 +69,7 @@ form {
     color:black;
     text-decoration: none;
     display: flex;
+    justify-content: space-between;
     padding: 20px;
     margin-bottom: 20px;
     border: 1px solid #e0e0e0;
@@ -89,6 +90,8 @@ form {
 
     p {
       margin-bottom: 0;
+      word-break: break-all;
+      max-width: 250px;
     }
   }
 }

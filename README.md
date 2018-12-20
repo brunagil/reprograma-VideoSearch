@@ -9,6 +9,8 @@ Com essa aplicação web, você será capaz de procurar pelos 5 vídeos **mais r
 - Loading gif durante a busca 
 - Retorno de erro se não houver conexão ou se não encontrar nenhum vídeo com aquela palavra chave
 
+![alt text](https://github.com/brunagil/reprograma-VideoSearch/blob/master/img-videosearch.gif "Gif da aplicação em funcionamento")
+
 
 ***
 
@@ -18,4 +20,6 @@ Para esse projeto funcionar corretamente, você deve duplicar o arquivo `credent
 
 Documentação sobre a chave de API para o Youtube API V3 
 ([ VEJA COMO CRIAR A SUA ](https://developers.google.com/youtube/v3/docs/)) 
+
+
 
